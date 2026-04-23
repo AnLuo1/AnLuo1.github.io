@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am An Luo, a 4th-year Ph.D. student in Statistics at the University of Minnesota, Twin Cities. My research interests include AI agents and AI safety.
+I am An Luo, a 4th-year Ph.D. student in Statistics at the University of Minnesota, Twin Cities, supervised by [Prof. Jie Ding](https://jding.org/). My research interests include AI agents and AI safety.
 
 ## Education
 
