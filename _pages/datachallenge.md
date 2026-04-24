@@ -7,8 +7,7 @@ hide_title: true
 ---
 
 <style>
-.greedy-nav .visible-links .masthead__menu-item--lg,
-.greedy-nav .hidden-links .masthead__menu-item--lg {
+.masthead {
   display: none !important;
 }
 
