@@ -7,6 +7,10 @@ hide_title: true
 ---
 
 <style>
+.masthead__menu-item--lg {
+  display: none;
+}
+
 .dc-wrap {
   max-width: 980px;
   margin: 0 auto;
