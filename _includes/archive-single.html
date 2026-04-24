@@ -60,5 +60,26 @@
       <p><a href="{{ post.bibtexurl }}">BibTeX</a></p>
     {% endif %}
 
+    {% if post.collection == 'publications' %}
+    {% if post.dataseturl or post.websiteurl or post.githuburl %}
+      <p>
+        {% assign has_link = false %}
+        {% if post.dataseturl %}
+          <a href="{{ post.dataseturl }}" target="_blank" rel="noopener noreferrer">Dataset</a>
+          {% assign has_link = true %}
+        {% endif %}
+        {% if post.websiteurl %}
+          {% if has_link %} | {% endif %}
+          <a href="{{ post.websiteurl }}" target="_blank" rel="noopener noreferrer">Website</a>
+          {% assign has_link = true %}
+        {% endif %}
+        {% if post.githuburl %}
+          {% if has_link %} | {% endif %}
+          <a href="{{ post.githuburl }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+        {% endif %}
+      </p>
+    {% endif %}
+    {% endif %}
+
   </article>
 </div>

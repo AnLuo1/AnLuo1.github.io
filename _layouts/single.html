@@ -61,6 +61,24 @@ layout: default
           {% if page.citation %}
             <p class="publication__citation" style="font-size: smaller">{{ page.citation }}</p>
           {% endif %}
+          {% if page.dataseturl or page.websiteurl or page.githuburl %}
+            <p style="font-size: smaller">
+              {% assign has_link = false %}
+              {% if page.dataseturl %}
+                <a href="{{ page.dataseturl }}" target="_blank" rel="noopener noreferrer">Dataset</a>
+                {% assign has_link = true %}
+              {% endif %}
+              {% if page.websiteurl %}
+                {% if has_link %} | {% endif %}
+                <a href="{{ page.websiteurl }}" target="_blank" rel="noopener noreferrer">Website</a>
+                {% assign has_link = true %}
+              {% endif %}
+              {% if page.githuburl %}
+                {% if has_link %} | {% endif %}
+                <a href="{{ page.githuburl }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+              {% endif %}
+            </p>
+          {% endif %}
           {% if page.bibtexurl %}
             <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">BibTeX</a></p>
           {% endif %}
