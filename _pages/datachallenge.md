@@ -6,6 +6,10 @@ author_profile: false
 ---
 
 <style>
+.page__title {
+  display: none;
+}
+
 .dc-wrap {
   max-width: 980px;
   margin: 0 auto;
