@@ -20,8 +20,13 @@ hide_title: true
   background: linear-gradient(135deg, #0b1d3a 0%, #12396b 60%, #1d4f8f 100%);
   color: #ffffff;
   border-radius: 12px;
-  padding: 1.15rem 1.5rem;
+  padding: 2rem 1.5rem;
   margin-bottom: 1.25rem;
+}
+
+.dc-hero h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.9rem;
 }
 
 .dc-hero p {
@@ -77,8 +82,9 @@ hide_title: true
 
 <div class="dc-wrap">
   <section class="dc-hero">
+    <h1>Data Challenge Program @ IEEE ICHI 2026 - AgentDS Healthcare</h1>
     <p>
-      Data Challenge Program @ IEEE ICHI 2026 - AgentDS Healthcare. Human-AI collaboration in healthcare data science.
+      Human-AI collaboration in healthcare data science.
     </p>
   </section>
 
