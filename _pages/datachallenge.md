@@ -7,8 +7,9 @@ hide_title: true
 ---
 
 <style>
-.masthead__menu-item--lg {
-  display: none;
+.greedy-nav .visible-links .masthead__menu-item--lg,
+.greedy-nav .hidden-links .masthead__menu-item--lg {
+  display: none !important;
 }
 
 .dc-wrap {
