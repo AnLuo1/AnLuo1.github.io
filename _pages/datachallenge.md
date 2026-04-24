@@ -3,13 +3,10 @@ layout: single
 title: "Data Challenge Program @ IEEE ICHI 2026 - AgentDS Healthcare"
 permalink: /datachallenge/
 author_profile: false
+hide_title: true
 ---
 
 <style>
-.page__title {
-  display: none;
-}
-
 .dc-wrap {
   max-width: 980px;
   margin: 0 auto;
@@ -41,16 +38,17 @@ author_profile: false
 }
 
 .dc-card {
-  border: 1px solid #dbe3f0;
-  border-left: 5px solid #1d4f8f;
+  border: 1px solid var(--global-border-color, #dbe3f0);
+  border-left: 5px solid var(--global-base-color, #1d4f8f);
   border-radius: 10px;
   padding: 1rem;
-  background: #ffffff;
+  background: var(--global-bg-color, #ffffff);
+  color: var(--global-text-color, inherit);
 }
 
 .dc-card h3 {
   margin: 0 0 0.55rem 0;
-  color: #12396b;
+  color: var(--global-text-color, #12396b);
 }
 
 .dc-list {
@@ -61,20 +59,20 @@ author_profile: false
   display: inline-block;
   margin: 0.25rem 0.5rem 0.25rem 0;
   padding: 0.35rem 0.65rem;
-  border: 1px solid #b4c4de;
+  border: 1px solid var(--global-border-color, #b4c4de);
   border-radius: 6px;
   text-decoration: none;
 }
 
 .dc-links a:hover {
-  border-color: #1d4f8f;
+  border-color: var(--global-base-color, #1d4f8f);
 }
 
 .dc-note {
   padding: 0.8rem 0.95rem;
   border-radius: 8px;
-  background: #eef4ff;
-  border: 1px solid #cddcf6;
+  background: color-mix(in srgb, var(--global-base-color, #1d4f8f) 10%, var(--global-bg-color, #ffffff));
+  border: 1px solid var(--global-border-color, #cddcf6);
 }
 </style>
 
