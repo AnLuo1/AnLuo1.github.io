@@ -118,7 +118,7 @@ hide_title: true
 
     <section class="dc-card">
       <h3>Program</h3>
-      <p><strong>2:00 PM - 3:30 PM, June 3, 2026</strong></p>
+      <p><strong>2:30 PM - 4:00 PM, June 3, 2026</strong></p>
       <p>IEEE ICHI 2026, Minneapolis, MN</p>
       <p><strong>Paper Presentations (Oral):</strong> Accepted Data Challenge papers (TBD)</p>
       <p class="dc-note">Final schedule will be updated closer to the conference date.</p>
