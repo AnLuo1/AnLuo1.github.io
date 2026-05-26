@@ -11,6 +11,7 @@ author_profile: true
 - **[Data Challenge Program](/datachallenge/) Chair**, [IEEE ICHI 2026](https://zhang-informatics.github.io/ICHI2026/program.html)
 
 ## Reviewing
-
+- **STAI-X 2026**
 - **IEEE Transactions on Signal Processing**, 2026
 - **[Data Challenge Program](/datachallenge/)**, [IEEE ICHI 2026](https://zhang-informatics.github.io/ICHI2026/program.html)
+- **ICML 2026 Workshop on AI for Physics**
