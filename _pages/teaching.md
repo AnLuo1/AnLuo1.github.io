@@ -7,7 +7,7 @@ author_profile: true
 
 ## University of Minnesota, Twin Cities
 
-- **Course co-designer, course project leader, grader**  
+- **Course co-designer and co-lecturer**  
   STAT 8931 Generative AI: Principles and Practices, Fall 2024  
   ([Course page](https://genai-course.jding.org/) · [GitHub](https://github.com/JieGroup/GenAI))
 

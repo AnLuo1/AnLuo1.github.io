@@ -7,7 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am An Luo, a 5th-year Ph.D. student in Statistics at the University of Minnesota, Twin Cities, supervised by [Prof. Jie Ding](https://jding.org/). My research interests include AI agents and AI safety.
+I am An Luo, a 5th-year Ph.D. student in Statistics at the University of Minnesota, Twin Cities, advised by [Prof. Jie Ding](https://jding.org/). I develop statistical methodology for the evaluation and reliable use of AI.
+
+## Research
+
+- **Human-AI coworking.** I study when humans should oversee AI in a long workflow and what human expertise still contributes. This includes the nonuniformity principle for scheduling human oversight, and the AssistedDS and AgentDS benchmarks for data science.
+- **Autonomous AI.** I study how AI can complete a long-horizon task by verifying and correcting its own work.
+- **AI provenance.** I trace AI outputs through watermarking, including ADD for multi-bit image watermarking.
 
 ## Education
 
