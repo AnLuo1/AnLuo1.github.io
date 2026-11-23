@@ -11,9 +11,9 @@ I am An Luo, a 5th-year Ph.D. student in Statistics at the University of Minneso
 
 ## Research
 
-- **Human-AI coworking.** I study when humans should oversee AI in a long workflow and what human expertise still contributes. This includes the nonuniformity principle for scheduling human oversight, and the AssistedDS and AgentDS benchmarks for data science.
+- **Human-AI coworking.** I study when humans should oversee AI in a long workflow and what human expertise still contributes. This includes the [nonuniformity principle](https://arxiv.org/abs/2607.16530) for scheduling human oversight, and the [AssistedDS](https://arxiv.org/abs/2506.13992) and [AgentDS](https://arxiv.org/abs/2603.19005) benchmarks for data science.
 - **Autonomous AI.** I study how AI can complete a long-horizon task by verifying and correcting its own work.
-- **AI provenance.** I trace AI outputs through watermarking, including ADD for multi-bit image watermarking.
+- **AI provenance.** I trace AI outputs through watermarking, including [ADD](https://arxiv.org/abs/2604.11491) for multi-bit image watermarking.
 
 ## Education
 
